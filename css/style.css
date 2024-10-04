@@ -1,0 +1,71 @@
+/* Сбрасываем отступы и устанавливаем box-sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Общие стили для body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f0f0f0, #ffffff);
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* Стили для контейнера */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок страницы */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #4caf50;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Стили для секций животных */
+.animal {
+    background: #e3f2fd;
+    border-left: 5px solid #2196f3;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Эффект при наведении на секцию с животным */
+.animal:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Заголовок каждого животного */
+.animal h2 {
+    margin-bottom: 10px;
+    color: #1e88e5;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/* Параграфы внутри секций с животными */
+.animal p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+/* Стили для отображения скорости */
+.speed {
+    font-weight: bold;
+    color: #ff5722;
+    font-size: 1.3em;
+}
